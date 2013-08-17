@@ -1,6 +1,5 @@
 markdown: rdiscount
 permalink: /:year/:month/:title/
-url: http://geeklu.com
-author: 卢克
+author: Test
 pygments: true
 paginate: 24
