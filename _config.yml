@@ -1,0 +1,30 @@
+# Site settings
+title: Ryan
+header-img: img/home-bg.jpg
+email: wanglun02@gmail.com
+description: ""
+baseurl: ""
+url: "http://aelam.github.io"
+twitter_username: lunwang
+github_username:  aelam
+facebook_username:  com.ryan.wang
+weibo_username: chanweilun
+zhihu_username: aelam
+author: Ryan
+
+# Build settings
+markdown: kramdown
+
+# markdown: redcarpet
+# redcarpet can auto highlight code, but the lack of header-id make the catalog impossible
+
+highlighter: pygments
+permalink: pretty
+paginate: 20
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+# use Github Flavored Markdown !important
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+
+kramdown:
+  input: GFM
