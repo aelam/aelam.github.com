@@ -9,7 +9,7 @@ tags: [Cocoapods]
 
 ## 更新项目中新的第三方库
 
-```
+```shell
   pod install --verbose --no-repo-update
   pod update --verbose --no-repo-update  # --no-repo-update 表示可以不更新配置库
 ```
@@ -19,7 +19,7 @@ tags: [Cocoapods]
 * 创建git仓库，结构保持和Specs.git一致
 * 提交到git server
 
-  ```
+```shell
   mkdir EMSpecs
   cd EMSPecs
   git init
@@ -27,14 +27,14 @@ tags: [Cocoapods]
   git commit
   git remote add origin http://ph.benemind.com/diffusion/SPEC/emspecs.git
   git push origin master
-  ```
+```
 
 ## 私有Cocoapods Specs的使用
   * 指定[EMSpec](http://ph.benemind.com/diffusion/SPEC/emspecs.git)到电脑上
   * 搜索可用性
   * 添加到Podfile中
 
-```
+```shell
   pod repo add  EMSpecs http://ph.benemind.com/diffusion/SPEC/emspecs.git
   pod search EMSpeed #  查看是否有结果
 ```
@@ -47,7 +47,7 @@ tags: [Cocoapods]
   * 检查可用性
   * 提交到EMSpecs 或 https://github.com/cocoapods/specs
 
-~~~
+~~~shell
 pod spec create EMSpeed
 pod spec lint EMSpeed.podspec
 pod repo push EMSpecs EMSpeed.podspec

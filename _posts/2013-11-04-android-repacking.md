@@ -6,13 +6,12 @@ category:
 tags: [Android, apk, repacking]
 ---
 
-#apk解包,修改,重新打包
-
+# apk解包,修改,重新打包
 
 ### 环境 shell/bat(此处用shell)
 ### 需要工具 apktool, sed(或者其他替代), jarsigner
 
-
+```shell
 
 	#!/bin/bash
 	referral_id="pinggege"
@@ -43,3 +42,4 @@ tags: [Android, apk, repacking]
 	rm "$apk_temp.apk"
 
 	echo "the resigned apk is $referral_id.apk!!"
+```
