@@ -77,6 +77,7 @@ EMClick文件夹里面会有podspec。
 
 ### 上传方式
 1. `pod repo push`
+
 ```ruby
 pod repo push EMSpecs EMSpeed.podspec
 ```
